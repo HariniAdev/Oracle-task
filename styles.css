@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #00008B;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background-color: #bfced2;
+}
+
+tr:nth-child(even) td {
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #00008B;
+}
+
+.footer-notes {
+    margin-top: 20px;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.footer-notes p {
+    margin: 0;
+    padding: 0;
+}
